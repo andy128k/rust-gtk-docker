@@ -31,6 +31,8 @@ RUN set -eux; \
     rustc --version; \
     RUSTFLAGS="--cfg procmacro2_semver_exempt" cargo install cargo-tarpaulin; \
     cargo tarpaulin --version; \
+    cargo install cargo-deb; \
+    cargo deb --version; \
     \
     apt-get remove -y --auto-remove \
         wget \
