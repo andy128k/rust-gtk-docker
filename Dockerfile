@@ -1,3 +1,5 @@
+# 2020-05-09
+
 FROM debian:buster-slim
 
 ENV RUSTUP_HOME=/usr/local/rustup \
